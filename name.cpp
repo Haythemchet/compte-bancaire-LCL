@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     // Création de clients
-    Client client1("CIN123456", "Dupont", "Jean", "0600000000");
-    Client client2("CIN789101", "Martin", "Sophie", "0700000000");
+    Client client1("CIN123456", "Drame", "Samba", "0600000000");
+    Client client2("CIN789101", "Chetouani", "Haythem", "0700000000");
 
     // Création de comptes
     Compte compte1(client1, 500);  // Compte de Jean Dupont avec 500 euros
